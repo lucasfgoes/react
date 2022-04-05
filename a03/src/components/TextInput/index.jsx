@@ -1,4 +1,5 @@
 import "./styles.css";
+import P from 'prop-types';
 
 export const TextInput = ({ onChange, searchValue }) => {
   return (
@@ -7,7 +8,12 @@ export const TextInput = ({ onChange, searchValue }) => {
       onChange={onChange}
       value={searchValue}
       type="search"
-      placeholder="pesquise seu post..."
+      placeholder="type your search"
     />
   );
+};
+
+TextInput.propTypes = {
+  searchValue: P.string.isRequired,
+  onChange: P.func.isRequired,
 };

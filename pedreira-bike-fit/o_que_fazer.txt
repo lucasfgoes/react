@@ -1,0 +1,39 @@
+- na consulta, criar botão ver mais informações levando ele para uma pagina de edição e visualização dos dados do ciclista.
+- Adicionar tabela para medidas do ciclista.
+- retornar medidas na consulta referente ao ciclista.
+- retornar modelo da bike.
+- começar procura das formulas para o calculo das medidas.
+- tratamento dos inputs.
+- procurar api dos estados.
+- ao realizar a consulta, ter os botões ver informações do ciclista e o botão medidas para retornar as medidas calculadas.
+
+
+// medidas
+
+A: Altura do selim
+B: Altura do selim sobre as barras
+C: Alcance do selim ao guidão
+D: Ângulo ou inclinação
+E: Frente-posterior da sela
+F: Marca e modelo da sela Marca e modelo
+G: Comprimento da Haste
+H: Ângulo
+I: Marca e modelo
+J: Largura do guidão
+K: Inclinação ou ângulo do guidão
+L: Barras do guidão
+M: Posição do nível do freio
+N: Alcance da alavanca do freio
+O: Posição do nível do freio
+P: Comprimento da pedivela / coroas
+
+
+// MUDANCAS NO CADASTRO
+
+MEDIDA DO COMPRIMENTO DO selim
+TAMANHO DO PÉ DO CICLISTA
+NO CADASTRO TOP TUBE EFETIVO
+
+
+
+

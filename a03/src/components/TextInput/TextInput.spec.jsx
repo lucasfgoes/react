@@ -14,14 +14,14 @@ describe('<TextInput />', () => {
 
   it('should call onChange function on each key pressed', () => {
     const fn = jest.fn();
-    render(<TextInput onChange={fn} />);
+    render(<TextInput onChange={fn} searchValue={'testando'} />);
 
     const input = screen.getByPlaceholderText(/type your search/i);
     const value = 'o valor';
 
     userEvent.type(input, value);
 
-    expect(input.value).toBe(value);
+    expect(input.value).toBe('testando');
     expect(fn).toHaveBeenCalledTimes(value.length);
   });
 
